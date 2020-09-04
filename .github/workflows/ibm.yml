@@ -7,7 +7,7 @@ on:
     branches: [ master ]
   schedule:
     
-    - cron: 15 10 * * *
+    - cron: 15 20 * * *	
     
 jobs:
   ibm-cloud-restart:
