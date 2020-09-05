@@ -7,8 +7,7 @@ on:
     branches: [ master ]
   schedule:
     
-    - cron: 15 20 * * *	
-    
+- cron: '0 0 */3 * *'    
 jobs:
   ibm-cloud-restart:
     runs-on: ubuntu-latest
